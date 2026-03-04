@@ -32,7 +32,7 @@ from telegram.ext import (
 )
 
 # ── 1. CONFIGURATION & DATABASE ──────────────────────────────────────────
-BOT_TOKEN = '8632966292:AAFn_rBuxj1pSmFG1fJCZievhFTeGvsM9Gk'  # Consider using environment variables for security
+BOT_TOKEN = 'YOUR_TELEGRAM_BOT_API_KEY'  # Consider using environment variables for security
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # FIX: Use Absolute Path to ensure DB is saved in the script's folder
@@ -440,4 +440,5 @@ def main():
         print(f"❌ Failed to start bot: {e}")
 
 if __name__ == "__main__":
+
     main()
